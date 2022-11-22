@@ -54,7 +54,7 @@ class GalacticUnicorn:
         - SWITCH_BRIGHTNESS_DOWN = 26
         """
 
-    def get_brightness(self) -> None:
+    def get_brightness(self) -> float:
         """
         Returns the current brightness as a value between 0.0 and 1.0.
         """
@@ -76,7 +76,7 @@ class GalacticUnicorn:
         Set the volume - value is supplied as a floating point value between 0.0 and 1.0.
         """
 
-    def get_volume(self) -> None:
+    def get_volume(self) -> float:
         """
         Returns the current volume as a value between 0.0 and 1.0.
         """
